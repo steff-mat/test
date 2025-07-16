@@ -2,10 +2,20 @@
 
 <ol>
   <li>Download latest ISO image</li>
-  <li>Use Balena Etcher to create bootable USB</li>
   <li>
-    <b>NOTE:</b> If 'Balena Etcher' fails, use Fedora Media Writer to reset the USB
-    drive, then try again
+    Use <a
+      href="https://etcher.balena.io/"
+      target="_blank"
+      rel="noopener noreferrer">Balena Etcher</a
+    > to create bootable USB
+  </li>
+  <li>
+    <b>NOTE:</b> If 'Balena Etcher' fails, use
+    <a
+      href="https://github.com/FedoraQt/MediaWriter"
+      target="_blank"
+      rel="noopener noreferrer">Fedora Media Writer</a
+    > to reset the USB drive, then try again
   </li>
   <li>
     Disable SecureBoot in your BIOS
